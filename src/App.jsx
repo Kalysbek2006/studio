@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div>
-         <div className="bg-cover bg-center min-h-screen" style={{ backgroundImage: `url(${home})` }}>
+         <div className="bg-cover bg-center h-full" style={{ backgroundImage: `url(${home})`}}>
              <Header/>
              <Home/>
          </div>
